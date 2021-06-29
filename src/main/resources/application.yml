@@ -1,0 +1,7 @@
+spring:
+  rabbitmq:
+    addresses: localhost:5672
+    virtual_host: /
+    username: realUser
+    password: realPassword
+    requested_heart_beat: 30
